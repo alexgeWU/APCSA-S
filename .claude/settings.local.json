@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(javac unit1/*.java)",
+      "Bash(xargs javac -d /tmp/apcsa_unit2_check)",
+      "Bash(mkdir -p /tmp/apcsa_unit2_check)",
+      "Bash(javac -d /tmp/apcsa_unit2_check src/unit2/*.java)"
+    ]
+  }
+}

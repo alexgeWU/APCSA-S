@@ -26,31 +26,25 @@ public class Topic4_AssignmentInput {
      * @return the new value of x after swapping (which equals the original y)
      *
      * TODO: Use a third variable called temp to hold x while you swap.
-     *       Steps:
-     *         int temp = x;   // save x
-     *         x = y;          // overwrite x with y
-     *         y = temp;       // overwrite y with saved x
-     *       Then return x (which now holds the original y).
-     *       Example: swapAndReturn(3, 7) → returns 7
-     *       Example: swapAndReturn(10, 4) → returns 4
+     *       Example: swapAndReturn(3, 7) → returns "x = 7, y = 3"
+     *       Example: swapAndReturn(10, 4) → returns "x = 4, y = 10"
      */
-    public static int swapAndReturn(int x, int y) {
-        // TODO: swap x and y using a temp variable, return the new x
-        return 0;
+    public static String swapAndReturn(int x, int y) {
+        // TODO: swap x and y using a temp variable
+        return "";
     }
 
     /**
      * Prompt the user for their name using Scanner, then print a greeting.
      *
-     * TODO: Follow these steps exactly:
-     *       1. Create a Scanner: Scanner scanner = new Scanner(System.in);
-     *       2. Print the prompt (no newline): System.out.print("Enter your name: ");
-     *       3. Read a line of input: String name = scanner.nextLine();
+     * USE THIS PAGE:
+     * https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html
+     * TODO: Follow these steps:
+     *       1. Create a Scanner
+     *       2. Print the prompt (no newline) requesting the user's name
+     *       3. Read a line of input
      *       4. Print: "Hello, [name]!"
-     *       5. Close the scanner: scanner.close();
-     *       Example interaction:
-     *         Enter your name: Alex
-     *         Hello, Alex!
+     *       5. Close the scanner
      */
     public static void readAndPrintName() {
         // TODO: use Scanner to read a name from System.in, then print "Hello, [name]!"

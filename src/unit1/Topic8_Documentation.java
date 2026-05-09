@@ -40,6 +40,8 @@ public class Topic8_Documentation {
      *
      * @param year the year to check (e.g., 2000, 1900, 2024)
      * @return true if year is a leap year, false otherwise
+     * @precondition method is written
+     *
      *
      * TODO: Implement the leap year logic using the three-rule check.
      *       Add a single-line comment above EACH of the three conditions explaining it.

@@ -34,7 +34,7 @@ public class Topic3_ExpressionsOutput {
      *         10*3=30, 10/3=3, 10%3=1 → 30 + 3 - 1 = 32
      */
     public static int evaluateExpression(int a, int b) {
-        // TODO: return (a * b) + (a / b) - (a % b)
+        // TODO: change return value
         return 0;
     }
 

@@ -39,7 +39,7 @@ public class Topic6_CompoundAssignment {
      *         original=5, 5*3=15, 15+10=25, 25-5=20, 20%7=6 → return 6
      */
     public static int applyCompoundOps(int n) {
-        // TODO: save original, then apply *= 3, += 10, -= original, %= 7; return n
+        // TODO: save original, then apply *= 3, += 10, -= original, %= 7, then return n
         return 0;
     }
 

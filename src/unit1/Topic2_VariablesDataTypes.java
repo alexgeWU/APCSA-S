@@ -39,9 +39,6 @@ public class Topic2_VariablesDataTypes {
      * @return "integer-like" if value has no fractional part (e.g., 3.0, -2.0),
      *         "decimal" if value has a non-zero fractional part (e.g., 3.14, -1.5)
      *
-     * TODO: Use one of these approaches to check if value has a fractional part:
-     *       Option A (casting): if ((int) value == value) → integer-like
-     *       Option B (modulo):  if (value % 1 == 0) → integer-like
      *       Example: classifyValue(3.0)  → "integer-like"
      *       Example: classifyValue(3.14) → "decimal"
      *       Example: classifyValue(-2.0) → "integer-like"

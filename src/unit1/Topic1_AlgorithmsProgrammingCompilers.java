@@ -36,28 +36,9 @@ public class Topic1_AlgorithmsProgrammingCompilers {
         return "";
     }
 
-    /**
-     * Given a task name, print a numbered algorithm (sequence of steps) for completing it.
-     *
-     * TODO: Print at least 3 numbered steps that represent a clear, ordered algorithm.
-     *       An algorithm must have a defined start, ordered middle steps, and a clear end.
-     *       Use System.out.println for each step.
-     *       Example for task = "make a sandwich":
-     *         Step 1: Get two slices of bread.
-     *         Step 2: Add desired fillings (e.g., peanut butter).
-     *         Step 3: Press the slices together and serve.
-     *       You may hard-code steps for a specific task or use generic numbered steps.
-     *
-     * @param task the name of the task to describe as an algorithm
-     */
-    public static void printAlgorithmSteps(String task) {
-        // TODO: print at least 3 numbered steps for the given task
-    }
-
     public static void main(String[] args) {
         System.out.println(identifyErrorType("missing semicolon"));
         System.out.println(identifyErrorType("wrong logic but runs"));
         System.out.println(identifyErrorType("crashes during execution"));
-        printAlgorithmSteps("make a sandwich");
     }
 }
